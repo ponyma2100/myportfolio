@@ -1,5 +1,5 @@
 <template>
-  <div class="px-36">
+  <div class="px-5 md:px-36">
     <Main />
     <Projects />
     <Technology />

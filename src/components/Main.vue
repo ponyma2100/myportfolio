@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="text-6xl font-bold flex flex-col justify-around w-[60rem] h-[26rem]"
-  >
+  <div class="text-6xl font-bold flex flex-col justify-around">
     <h1>
       Hey, I am Pony Ma <br />
       Welcome To My Portfolio<br />

@@ -8,7 +8,7 @@
       <div
         v-for="project in projects"
         :key="project.id"
-        class="w-[24rem] min-w-[380px] min-h-[400px] rounded-lg shadow-md shadow-blue-500/50"
+        class="w-[24rem] min-w-[380px] -[400px] rounded-lg shadow-md shadow-blue-500/50"
       >
         <img :src="project.image" alt="" class="rounded-lg min-h-[240px]" />
         <div
