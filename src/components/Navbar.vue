@@ -2,7 +2,7 @@
   <div class="flex justify-between items-center w-full">
     <div class="flex items-center cursor-pointer">
       <i class="material-icons material-symbols-rounded text-3xl"> diamond </i>
-      <span>Portfoliio</span>
+      <span>Portfolio</span>
     </div>
     <div
       class="text-2xl text-secondary cursor-pointer list-none flex justify-around w-96"
