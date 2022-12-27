@@ -8,9 +8,13 @@
       <div
         v-for="project in projects"
         :key="project.id"
-        class="w-[24rem] min-w-[380px] -[400px] rounded-lg shadow-md shadow-blue-500/50"
+        class="w-[24rem] min-w-[380px] rounded-lg shadow-md shadow-blue-500/50"
       >
-        <img :src="project.image" alt="" class="rounded-lg min-h-[240px]" />
+        <img
+          :src="project.image"
+          alt=""
+          class="rounded-lg h-[240px] w-96 object-fill"
+        />
         <div
           class="flex flex-col justify-between items-center p-6 gap-2 h-[360px]"
         >
@@ -70,6 +74,17 @@ const projects = [
     id: 1,
   },
   {
+    title: "TaiwanStock Mobile App",
+    description:
+      "A real-time stocks market screener mobile app using vue3. Fetch prices and data from yahoo finance",
+    image:
+      "https://raw.githubusercontent.com/ponyma2100/stock-app-vue/master/stock-5.png",
+    tags: ["VUE3", "JAVASCRIPT", "EXPRESS", "NODE.JS"],
+    source: "https://github.com/ponyma2100/stock-app-vue",
+    visit: "https://ponyma2100.github.io/stock-app-vue/",
+    id: 2,
+  },
+  {
     title: "Simplenetflix App",
     description:
       "A netflix clone website by using vue3 and firebase. Fetch and search real-time movies data from the movie database api.Demo Account: demo@gmail.com/123123",
@@ -78,7 +93,7 @@ const projects = [
     tags: ["VUE3", "JAVASCRIPT", "API", "FIREBASE"],
     source: "https://github.com/ponyma2100/simplenetflix-vue",
     visit: "https://ponyma2100.github.io/simplenetflix-vue/",
-    id: 2,
+    id: 3,
   },
   {
     title: "Pomodoro App",
@@ -89,7 +104,7 @@ const projects = [
     tags: ["VUE3", "JAVASCRIPT", "API"],
     source: "https://github.com/ponyma2100/pomodoro-vue",
     visit: "https://ponyma2100.github.io/pomodoro-vue/",
-    id: 3,
+    id: 4,
   },
 ];
 </script>
