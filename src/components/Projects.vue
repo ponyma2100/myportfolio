@@ -13,7 +13,7 @@
         <img
           :src="project.image"
           alt=""
-          class="rounded-lg h-[240px] w-96 object-fill"
+          class="rounded-lg h-[240px] w-96 object-cover"
         />
         <div
           class="flex flex-col justify-between items-center p-6 gap-2 h-[360px]"
@@ -105,6 +105,17 @@ const projects = [
     source: "https://github.com/ponyma2100/pomodoro-vue",
     visit: "https://ponyma2100.github.io/pomodoro-vue/",
     id: 4,
+  },
+  {
+    title: "URL shortening API landing page",
+    description:
+      "Responsive url shortening page by using Vue3 ,integrate with the shrtcode URL shortening API .",
+    image:
+      "https://res.cloudinary.com/dz209s6jk/image/upload/Screenshots/lljruurzqmtdgfhomdnq.jpg",
+    tags: ["VUE3", "JAVASCRIPT", "API"],
+    source: "https://github.com/ponyma2100/url-shortening-vue",
+    visit: "https://ponyma2100.github.io/url-shortening-vue/",
+    id: 5,
   },
 ];
 </script>
